@@ -7,6 +7,7 @@ public class Perulangan02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        //Memasukkan NIM
         System.out.print("Input NIM: ");
         String nim = input.nextLine();
         int n = Integer.parseInt(nim.substring(nim.length()-2));

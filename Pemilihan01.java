@@ -7,7 +7,7 @@ public class Pemilihan01 {
         int tugas, kuis, uts, uas;
         String nilaiHuruf;
         double nilaiAkhir;
-        double nilaiMinimum = 60;
+        double nilaiMinimum = 39;
 
         System.out.println("Program Menghitung Nilai Akhir");
         System.out.println("==============================");
@@ -51,8 +51,10 @@ public class Pemilihan01 {
         if (nilaiAkhir < 0 || nilaiAkhir > 100) {
             System.out.println("Nilai tidak valid");
         } else {
+
         //Menampilkan nilaiAkhir
         System.out.println("Nilai Akhir: " + nilaiAkhir);
+        
         //Menampilkan nilaiHuruf
         System.out.println("Nilai Huruf: " +nilaiHuruf);
 

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Tugas104 {
+public class Tugas105 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
