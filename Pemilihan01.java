@@ -59,9 +59,13 @@ public class Pemilihan01 {
         System.out.println("==============================");
         System.out.println("==============================");
 
+        if (nilaiAkhir >= nilaiMinimum){
             System.out.println("SELAMAT ANDA LULUS");
+            }else if (nilaiAkhir <= nilaiMinimum){
+            System.out.println("Mohon Maaf");
+
         }
     }
 }
-
+}
 
