@@ -1,4 +1,4 @@
-public class Fungsi04 {
+public class Fungsi03 {
     public static void main(String[] args) {
         int[][] stock = {
             {10, 5, 15, 7},
