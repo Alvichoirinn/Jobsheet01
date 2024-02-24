@@ -27,10 +27,10 @@ public class Array03 {
                     nilaiAngka[i] = input.nextDouble();
                 }
         
-                System.out.println("============================================================");
-                System.out.println("==================Hasil Konversi Nilai======================");
-                System.out.println("MK\t\tNilai Angka\tNilai Huruf\tBobot Nilai");
-                System.out.println("============================================================");
+                System.out.println("========================================================================");
+                System.out.println("==========================Hasil Konversi Nilai==========================");
+                System.out.printf("%-20s%-15s%-15s%-15s\n", "MK", "Nilai Angka", "Nilai Huruf", "Bobot Nilai");
+                System.out.println("========================================================================");
         
                 // Menghitung nilai setara
                 for (int i = 0; i < jmlMatkul; i++) {
@@ -58,15 +58,14 @@ public class Array03 {
                         nilaiSetara = 0;
                         nilaiHuruf = "E";
                     }
-                    System.out.println(namaMatkul[i] + "\t" + nilaiAngka[i] + "\t\t" + nilaiHuruf + "\t\t" + nilaiSetara);
+                    System.out.printf("%-20s%-15.2f%-15s%-15.0f\n", namaMatkul[i], nilaiAngka[i], nilaiHuruf, nilaiSetara);
         
                     totalBobotSKS += bobotSKS[i];
                     totalBobotSKSxNilai += (nilaiSetara * bobotSKS[i]);
                 }
-                // Hasil nilai IPS
-                System.out.println("============================================================");
+                // Hitung nilai IPSemester
                 double IPSemester = totalBobotSKSxNilai / totalBobotSKS;
-                System.out.println("============================================================");
+                System.out.println("========================================================================");
         
                 System.out.println("\nIP: " + String.format("%.2f", IPSemester));
             }
