@@ -1,7 +1,4 @@
 package Latihan;
-
-import jobsheet6.Mahasiswa03;
-
 public class HotelService03 {
     Hotel03 listHotel[] = new Hotel03 [5];
     int idx;

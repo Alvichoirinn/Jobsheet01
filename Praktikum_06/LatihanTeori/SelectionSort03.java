@@ -1,7 +1,4 @@
 package LatihanTeori;
-
-import jobsheet6.Mahasiswa03;
-
 public class SelectionSort03 {
     public static void main(String[] args) {
         int [] data = {23, 35, 7, 14, 67} ;
