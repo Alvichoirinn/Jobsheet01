@@ -17,9 +17,9 @@ public class BinaryTree03 {
     }
 
     // Menambahkan node dengan cara rekursif
-    private Node addRecursive(Node current, int data) {
+    private Node03 addRecursive(Node03 current, int data) {
         if (current == null) {
-            return new Node(data);
+            return new Node03(data);
         }
         if (data < current.data) {
             current.left = addRecursive(current.left, data);
