@@ -1,8 +1,3 @@
-package Praktikum_11;
-
-/**
- * Node03
- */
 public class Node03 {
 
     int data;

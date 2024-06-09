@@ -1,6 +1,3 @@
-package Praktikum_11;
-
-
 public class BinaryTree03 {
     Node03 root;
 

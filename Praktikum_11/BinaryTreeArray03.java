@@ -11,7 +11,7 @@ public class BinaryTreeArray03 {
     }
 
     void add(int data) {
-        if (idxLast + 1 < this.data.leght) {
+        if (idxLast + 1 < this.data.length) {
             this.data[++idxLast] = data;
         }
     }

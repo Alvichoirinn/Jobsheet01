@@ -1,5 +1,3 @@
-package Praktikum_11;
-
 public class BinaryTreeMain03 {
     public static void main(String[] args) {
     BinaryTree03 bt = new BinaryTree03();
